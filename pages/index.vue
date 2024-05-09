@@ -26,7 +26,7 @@
         <div id="events" class="flex flex-col space-y-4 px-1 max-w-7xl mx-auto py-4 w-full">
             <div class="flex flex-col space-y-4 max-w-7xl mx-auto py-12 px-12 items-left">
                 <div class="text-4xl font-semibold mx-auto text-center text-black uppercase">
-                    Our Events
+                    Our Activities
                 </div>
             </div>
             <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
