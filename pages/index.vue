@@ -8,7 +8,7 @@
                 <div class="order-1 min-h-[20rem] lg:min-h-auto lg:order-2 flex flex-col justify-center">
                     <div class="flex items-start font-semibold">
                         <span class="text-4xl max-w-2xl lg:text-5xl break-words text-center lg:text-left">{{ current[0]
-                        }}</span>
+                            }}</span>
                     </div>
                 </div>
                 <div class="mt-3 order-2 lg:order-1 flex flex-col justify-center space-y-4">
@@ -23,18 +23,28 @@
                 </div>
             </div>
         </div>
+        <div id="events" class="flex flex-col space-y-4 px-1 max-w-7xl mx-auto py-4 w-full">
+            <div class="flex flex-col space-y-4 max-w-7xl mx-auto py-12 px-12 items-left">
+                <div class="text-4xl font-semibold mx-auto text-center text-black uppercase">
+                    Our Events
+                </div>
+            </div>
+            <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
+                <MiscBox v-for="event in events" :key="event._id" :event="event" />
+            </div>
+        </div>
         <div id="about" class="flex flex-col space-y-4 px-1 max-w-7xl mx-auto py-4">
             <div data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 <CardSpecial title="About Us" :description="[
-                        `Today's biggest challenge for a common man is crime in every place in our country with rising thefts, corruption, burglary, women and girl child safety, child abuse, drugs, emotional blackmailing and intimidation, adultery, etc.,. Many a times the issues get unnoticed, so the help is not rendered at the appropriate time for the people. However, there are also several instances the issues get addressed at the right time with the help from the police department, provided they are informed and given enough time to nab the culprits and justice delivered back. This is, however, a post facto mode of addressal of an issue and by then several changes and shifts in the case may take place.  However, there are several initiatives that are being run by the Department of Police to address and prevent crime in the society with the help from several institutions, social organizations and the awareness of  the public. The department is continuing to create the awareness as much as they can with the public to prevent crime in the first place. Although most of the cases justice is being delivered, the question still remains as to how to bring more awareness to the common man and prevent or weed out the crime from our society, so it becomes a great place for us to live a happy and peaceful life.`,
-                        `As we all know for such crimes to get solved or fixed, time is the essence. This crime needs to be addressed at an appropriate time, bringing victims to justice by nabbing culprits or perpetrators and handing over to the police, thereby to continue to reduce the crime rate in the society. Besides police department is all time available to us in the front, it is also our equal responsibility to help and support the department in the way we can, by all means. Of course, but then the law that can never be taken into one's hands. This is where the guidance and recommended measures and practices are to be understood and followed by the public from the department of police.`,
-                        `In an attempt to help police and the common man to come even more together at the right time, we thought that we could provide the required assistance in a way that we can, and started this initiative of Police and Public Connectors, a social organization to (a) provide people in the first place, the right awareness that is needed to safeguard themselves and how to prevent crime in the future (b) where to go to, and seek help when there is an issue in terms of providing the initial helping hand to the perplexed victim (most of the times) and connect them to the police at the right time. After all, the miscreants cannot take advantage to escape and get indirectly encouraged that such crime is amenable in the society. `,
-                        `As a social organization, Police Public connectors was a registered entity under Certification Of Registration Under Section 10 of the Tamil Nadu Societies Registration Act, 1975 with Memorandum and Bye-Laws of Association in effect, and in this service for more than ten years organizing several public awareness events and roadshows in Chennai and providing right support to the police department. The initiative and the roadshows re being appreciated by the City Police Stations, Commissioner's Office, and Office of the Director General of Police (DGP). With their able encouragement and guidance, we also started to expand our coverage to several areas of Chennai city with the participation of like-minded people in and around us joining our institution as volunteers. `,
-                        `In 2018, Dr. C Sailendrababu (IPS), Director of Police, unveiled the GRP app to assist passengers in Chennai Central Railway Station, and awareness roadshow was also conducted. Then our organization had distributed the GRP app to people in Central Egmore, Perambur, Tiruvannamalai, and all railway stations and also began conducting public service in Ambathur, Villivakkam, and other parts of the city.  `,
-                        `With the continued gaining of awareness in public and traction for the need to be crime free society, we also launched an initiative to work closely with the colleges in Chennai for the students to participate as volunteers in our association to expand our services to assist the department of police.`,
-                        `Several colleges in the city are coming forward to offer support to our efforts with their students ready to join our initiative as volunteer support. `,
-                        `In 2022, we launched a website for the benefit of volunteers and to report crime by the public wherever it happens for our volunteers to pick up and rush to the spot to provide that initial handholding support to the victim and understanding the issue and help trace the culprits for the police to nab them on time.`,
-                    ]" />
+                    `Today's biggest challenge for a common man is crime in every place in our country with rising thefts, corruption, burglary, women and girl child safety, child abuse, drugs, emotional blackmailing and intimidation, adultery, etc.,. Many a times the issues get unnoticed, so the help is not rendered at the appropriate time for the people. However, there are also several instances the issues get addressed at the right time with the help from the police department, provided they are informed and given enough time to nab the culprits and justice delivered back. This is, however, a post facto mode of addressal of an issue and by then several changes and shifts in the case may take place.  However, there are several initiatives that are being run by the Department of Police to address and prevent crime in the society with the help from several institutions, social organizations and the awareness of  the public. The department is continuing to create the awareness as much as they can with the public to prevent crime in the first place. Although most of the cases justice is being delivered, the question still remains as to how to bring more awareness to the common man and prevent or weed out the crime from our society, so it becomes a great place for us to live a happy and peaceful life.`,
+                    `As we all know for such crimes to get solved or fixed, time is the essence. This crime needs to be addressed at an appropriate time, bringing victims to justice by nabbing culprits or perpetrators and handing over to the police, thereby to continue to reduce the crime rate in the society. Besides police department is all time available to us in the front, it is also our equal responsibility to help and support the department in the way we can, by all means. Of course, but then the law that can never be taken into one's hands. This is where the guidance and recommended measures and practices are to be understood and followed by the public from the department of police.`,
+                    `In an attempt to help police and the common man to come even more together at the right time, we thought that we could provide the required assistance in a way that we can, and started this initiative of Police and Public Connectors, a social organization to (a) provide people in the first place, the right awareness that is needed to safeguard themselves and how to prevent crime in the future (b) where to go to, and seek help when there is an issue in terms of providing the initial helping hand to the perplexed victim (most of the times) and connect them to the police at the right time. After all, the miscreants cannot take advantage to escape and get indirectly encouraged that such crime is amenable in the society. `,
+                    `As a social organization, Police Public connectors was a registered entity under Certification Of Registration Under Section 10 of the Tamil Nadu Societies Registration Act, 1975 with Memorandum and Bye-Laws of Association in effect, and in this service for more than ten years organizing several public awareness events and roadshows in Chennai and providing right support to the police department. The initiative and the roadshows re being appreciated by the City Police Stations, Commissioner's Office, and Office of the Director General of Police (DGP). With their able encouragement and guidance, we also started to expand our coverage to several areas of Chennai city with the participation of like-minded people in and around us joining our institution as volunteers. `,
+                    `In 2018, Dr. C Sailendrababu (IPS), Director of Police, unveiled the GRP app to assist passengers in Chennai Central Railway Station, and awareness roadshow was also conducted. Then our organization had distributed the GRP app to people in Central Egmore, Perambur, Tiruvannamalai, and all railway stations and also began conducting public service in Ambathur, Villivakkam, and other parts of the city.  `,
+                    `With the continued gaining of awareness in public and traction for the need to be crime free society, we also launched an initiative to work closely with the colleges in Chennai for the students to participate as volunteers in our association to expand our services to assist the department of police.`,
+                    `Several colleges in the city are coming forward to offer support to our efforts with their students ready to join our initiative as volunteer support. `,
+                    `In 2022, we launched a website for the benefit of volunteers and to report crime by the public wherever it happens for our volunteers to pick up and rush to the spot to provide that initial handholding support to the victim and understanding the issue and help trace the culprits for the police to nab them on time.`,
+                ]" />
             </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 py-12 text-white max-w-7xl mx-auto p-2 lg:p-0" id="vision"
@@ -133,13 +143,13 @@
             </div>
             <div id="leaders" class="max-w-7xl mx-auto grid grid-cols-1 gap-8 items-center justify-between w-full"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <CardPerson v-for="(item, i) in leaders" :news="item" :left="i % 2 === 0 ? true : false" :key="item.title"
-                    class="transition duration-500 w-full ease-in-out transform" />
+                <CardPerson v-for="(item, i) in leaders" :news="item" :left="i % 2 === 0 ? true : false"
+                    :key="item.title" class="transition duration-500 w-full ease-in-out transform" />
             </div>
         </div>
 
-        <div id="events" class="max-w-7xl mx-auto flex flex-col space-y-4 items-stretch justify-between" data-aos="fade-up"
-            data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+        <div id="events" class="max-w-7xl mx-auto flex flex-col space-y-4 items-stretch justify-between"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
             <div class="text-4xl mx-auto text-center text-black uppercase">
                 Gallery
             </div>
@@ -202,6 +212,8 @@ const leaders = [
 definePageMeta({
     title: "Home",
 });
+
+const events = await queryContent("events").find();
 
 const typer = [
     "Help fight against drugs.",

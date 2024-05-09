@@ -79,7 +79,7 @@ const Navigation = [
     name: 'Contact us',
     route: '/#contact',
     key: 'contact us',
-  },
+  },/*
   {
     name: `Complain`,
     route: `/complain`,
@@ -97,6 +97,6 @@ const Navigation = [
     route: '/login',
     key: 'login',
     right: true,
-  },
+  },*/
 ];
 </script>

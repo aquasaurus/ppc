@@ -28,5 +28,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-schema-org",
+    "@nuxt/content"
   ],
 });
