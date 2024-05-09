@@ -54,6 +54,11 @@ const Navigation = [
     key: `home`,
   },
   {
+    name: `Activities`,
+    route: `/#activities`,
+    key: `activities`,
+  },
+  {
     name: `About Us`,
     route: `/#about`,
     key: `about`,
