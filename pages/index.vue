@@ -213,7 +213,7 @@ definePageMeta({
     title: "Home",
 });
 
-const events = await queryContent("events").find();
+const events = await queryContent("activities").find();
 
 const typer = [
     "Help fight against drugs.",
