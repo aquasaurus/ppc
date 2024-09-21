@@ -197,7 +197,7 @@ const leaders = [
     {
         title: "M. Ilangovan",
         description: `Born in 1970 in Chennai, M. Ilangovan had his early education at the prestigious Don Bosco Higher Secondary School in the city. After completing his schooling, he pursued his undergraduate studies at Vivekananda College in Mylapore, Chennai, where he earned his B.Sc. degree from 1987 to 1990. Following his graduation, Ilangovan decided to further his education in the field of law. He enrolled at the renowned Madras Law College and successfully completed his B.L. degree, making him a qualified legal professional. Ilangovan joined judicial service in 1999 and his career spanned over 25 years, from 1999 to 2024. During this time, he served in various locations across Tamil Nadu, including Vellore, Salem, Thiruvannamalai, Tanjore, Thiruvallur, Chennai, and Chenglepet. His extensive experience and expertise in the legal field allowed him to make valuable contributions to the justice system in these regions. Throughout his career, Ilangovan demonstrated a strong commitment to his work and a deep understanding of the law. His dedication and professionalism earned him the respect of his colleagues and clients alike, making him a respected figure in the legal community.`,
-        subtitle: "Lawyer",
+        subtitle: "Retired Judge",
         image: "/people/Ilangovan.jpg",
     },
     {
