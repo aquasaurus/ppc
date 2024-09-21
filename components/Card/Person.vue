@@ -18,6 +18,7 @@
           :alt="news.title"
           class="
             object-cover
+            object-center
             w-72
             h-72
             rounded-full
