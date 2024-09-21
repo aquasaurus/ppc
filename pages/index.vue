@@ -194,7 +194,6 @@ const leaders = [
         subtitle: "FOUNDER",
         image: "/people/Thiyagarajan.jpeg",
     },
-
     {
         title: "Durai Kaliyarethnam",
         description: `He was retired as a judge and part of Indian judiciary for more than 50 years - he became a lawyer in 1969 and had become a district judge in 1972, and solved several cases rendering justice in several districts, states, and debt collection tribunals until his retirement in 2000. During his tenure, he assisted several people through a free legal aid to provide and render right support and justice to them. Even today he is being regarded 'as the most revered person to go to' for several young lawyers to understand various complexities in solving various cases from Indian Law. He always believes in justice is our right and to be accessible to every citizen of our country. He will continue to provide the right direction and guidance for the Public Police Connectors as a mentor by being part of advisory.`,
@@ -206,6 +205,12 @@ const leaders = [
         description: `He was retired at the rank of Assistant Commissioner of Police with more than three decades of experience working at several levels during his tenure in Indian Police Service. An adept in solving several criminal cases, he led police armoury to provide security to then Honourable PM of our country Late Tmt Indira Gandhi, Honourable CM of Tamil Nadu Late Thiru MG Ramachandran and played several key armoury roles on special duties. He worked closely with special CIDs in Q Branch, Coracle, Crime and Food Cell to solve several criminal mysteries and cases. He was part of Tamil Nadu's special cell for weapon striping and assembling training and firing practice. He stood first in all the training programs that he attended especially rifle factory, bomb disposal, jungle tactics, etc., and proved as an example to several police personnel. By noticing his contribution and interests, he was later inducted as a trainer and mentor to impart training to the police personnel on duty in several areas.`,
         subtitle: "Retired Assistant Commissioner of Police",
         image: "/people/Mohan_Singh_Joshua.jpg",
+    },
+    {
+        title: "M. Ilangovan",
+        description: `Born in 1970 in Chennai, M. Ilangovan had his early education at the prestigious Don Bosco Higher Secondary School in the city. After completing his schooling, he pursued his undergraduate studies at Vivekananda College in Mylapore, Chennai, where he earned his B.Sc. degree from 1987 to 1990. Following his graduation, Ilangovan decided to further his education in the field of law. He enrolled at the renowned Madras Law College and successfully completed his B.L. degree, making him a qualified legal professional. Ilangovan joined judicial service in 1999 and his career spanned over 25 years, from 1999 to 2024. During this time, he served in various locations across Tamil Nadu, including Vellore, Salem, Thiruvannamalai, Tanjore, Thiruvallur, Chennai, and Chenglepet. His extensive experience and expertise in the legal field allowed him to make valuable contributions to the justice system in these regions. Throughout his career, Ilangovan demonstrated a strong commitment to his work and a deep understanding of the law. His dedication and professionalism earned him the respect of his colleagues and clients alike, making him a respected figure in the legal community.`,
+        subtitle: "Lawyer",
+        image: "/people/Ilangovan.jpg",
     },
 ];
 
