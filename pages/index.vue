@@ -203,7 +203,7 @@ const leaders = [
     {
         title: "Sekar Sethuraj",
         description: `He was retired at the rank of Deputy Superintendent of Police with 25 years of distinguished service. Starting as a Sub-Inspector in 1997, he rose to Assistant Commissioner, earning accolades for bravery and public service, including a Gold Medal for saving lives during a crisis. He also contributed to mental health rehabilitation, road safety awareness, and high-profile investigations. After retiring voluntarily in 2022, he dedicated himself to social service and farming.`,
-        subtitle: "Retired Deputy Superintendent of Police",
+        subtitle: "Deputy Superintendent of Police (Retd)",
         image: "/people/sekar.jpg",
     },
 ];
