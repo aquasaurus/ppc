@@ -201,10 +201,10 @@ const leaders = [
         image: "/people/Ilangovan.jpg",
     },
     {
-        title: "Mohan Singh Joshua",
-        description: `He was retired at the rank of Assistant Commissioner of Police with more than three decades of experience working at several levels during his tenure in Indian Police Service. An adept in solving several criminal cases, he led police armoury to provide security to then Honourable PM of our country Late Tmt Indira Gandhi, Honourable CM of Tamil Nadu Late Thiru MG Ramachandran and played several key armoury roles on special duties. He worked closely with special CIDs in Q Branch, Coracle, Crime and Food Cell to solve several criminal mysteries and cases. He was part of Tamil Nadu's special cell for weapon striping and assembling training and firing practice. He stood first in all the training programs that he attended especially rifle factory, bomb disposal, jungle tactics, etc., and proved as an example to several police personnel. By noticing his contribution and interests, he was later inducted as a trainer and mentor to impart training to the police personnel on duty in several areas.`,
-        subtitle: "Retired Assistant Commissioner of Police",
-        image: "/people/Mohan_Singh_Joshua.jpg",
+        title: "Sekar Sethuraj",
+        description: `He was retired at the rank of Deputy Superintendent of Police with 25 years of distinguished service. Starting as a Sub-Inspector in 1997, he rose to Assistant Commissioner, earning accolades for bravery and public service, including a Gold Medal for saving lives during a crisis. He also contributed to mental health rehabilitation, road safety awareness, and high-profile investigations. After retiring voluntarily in 2022, he dedicated himself to social service and farming.`,
+        subtitle: "Retired Deputy Superintendent of Police",
+        image: "/people/sekar.jpg",
     },
 ];
 
