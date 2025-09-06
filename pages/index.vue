@@ -16,10 +16,6 @@
                         class="bg-blue-600 font-semibold rounded-xl text-lg text-center p-2 w-72 transition duration-500 ease-in-out transform hover:-translate-y-1">
                         JOIN AS VOLUNTEER
                     </a>
-                    <a href="/complain"
-                        class="bg-red-600 font-semibold rounded-xl text-lg text-center p-2 w-72 transition duration-500 ease-in-out transform hover:-translate-y-1">
-                        RAISE A COMPLAINT
-                    </a>
                 </div>
             </div>
         </div>
@@ -155,15 +151,6 @@
             </div>
 
             <MiscTileCarousel :images="eventList" />
-        </div>
-
-        <div id="report-btn" class="max-w-7xl w-full mx-auto flex flex-col space-y-4 justify-between">
-            <MiscMessage type="zinc">Click the button below in order to file a complaint. Volunteers
-                will be notified and will act accordingly.</MiscMessage>
-            <a href="/complain"
-                class="rounded-2xl bg-red-600 text-center text-white p-4 max-w-md mx-auto font-semibold uppercase transition duration-500 ease-in-out transform hover:-translate-y-1">
-                File a Complaint
-            </a>
         </div>
 
         <div class="h-[1rem]" />
