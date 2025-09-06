@@ -95,5 +95,21 @@ export default [
       },
       images: 12,
     },
+    {
+      title: {
+        en: "Drug Awareness Campaign - Kelambakkam Bus Terminus",
+        ta:
+          "கேளம்பாக்கம் பேருந்து நிலையத்தில் போதைப்பொருள் விழிப்புணர்வு நிகழ்ச்சி",
+      },
+      images: 13,
+    },
+    {
+      title: {
+        en: "Traffic Awareness Campaign - Sindhi College, Maduravoyal",
+        ta:
+          "மதுரவாயல் சிந்தி கல்லூரியில் போக்குவரத்து விழிப்புணர்வு நிகழ்ச்சி",
+      },
+      images: 14,
+    },
   ];
   

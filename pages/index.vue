@@ -192,7 +192,7 @@ const leaders = [
         title: "C. Thiyagarajan",
         description: `He is running a security company for the past 20 years in creating an opportunity himself from his childhood aspiration did not come true, to become a police officer to work for social justice, law and order. With this unwavering desire, the Public Police Connectors was started with an objective to contribute to the immediate accessible society around us, by delivering security service to people at Chennai Central Railway Station for their safety and protection from thefts and crime. He added his own team by providing proper training to them to monitor, protect and warn people to enhance their safety. This had become a success when he and his team were appreciated by the police department when the crime rate went down. He also led several events and roadshows to bring awareness to the public in safety and protection.`,
         subtitle: "FOUNDER",
-        image: "/people/Thiyagarajan.jpeg",
+        image: "/people/Thiyagarajan.png",
     },
     {
         title: "M. Ilangovan B.Sc., B.L.",
